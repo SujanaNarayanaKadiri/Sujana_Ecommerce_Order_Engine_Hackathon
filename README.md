@@ -8,17 +8,16 @@ The system is designed using a modular service-based architecture, simulating mi
 
 ---
 
-## Features Implemented 
-Product and inventory management
-Multi-user cart system
-Stock reservation to prevent overselling
-Order placement with rollback on failure
-Payment simulation (success/failure)
-Order lifecycle management
-Discount and coupon support
-Fraud detection and audit logging
-Concurrency handling using locks
-
+## Features Implemented
+* Product and inventory management
+* Multi-user cart system
+* Stock reservation to prevent overselling
+* Order placement with rollback on failure
+* Payment simulation (success/failure)
+* Order lifecycle management
+* Discount and coupon support
+* Fraud detection and audit logging
+* Concurrency handling using locks
 ---
 
 ## Project Structure
@@ -69,5 +68,3 @@ javac ecommerce/Main.java
 ### Run
 
 java ecommerce.Main
-
-
