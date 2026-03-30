@@ -8,7 +8,7 @@ The system is designed using a modular service-based architecture, simulating mi
 
 ---
 
-## Features
+## Features Implemented 
 
 ### Product Management
 
@@ -142,41 +142,6 @@ Ecommerce_Order_Engine/
  ├── ecommerce/
  │    └── Main.java
 ```
-
----
-
-## How to Run
-
-### Compile
-
-javac ecommerce/Main.java
-
-### Run
-
-java ecommerce.Main
-
----
-
-## CLI Menu Options
-
-1. Add Product
-2. View Products
-3. Add to Cart
-4. Remove from Cart
-5. View Cart
-6. Apply Coupon
-7. Place Order
-8. Cancel Order
-9. View Orders
-10. Low Stock Alert
-11. Return Product
-12. Simulate Concurrent Users
-13. View Logs
-14. Toggle Failure Mode
-15. Exit
-
----
-
 ## Design Approach
 
 * Used ConcurrentHashMap for thread-safe data handling
@@ -193,20 +158,16 @@ java ecommerce.Main
 * Runs in a single JVM environment
 * Simplified payment processing
 * No external integrations
-
 ---
 
-## Future Enhancements
+## How to Run the Project
 
-* Convert to Spring Boot REST APIs
-* Integrate database such as MySQL or PostgreSQL
-* Implement authentication using JWT
-* Add frontend using React
-* Deploy as microservices using Docker
+### Compile
 
----
+javac ecommerce/Main.java
 
-## Author
+### Run
 
-Kadiri Sujana Narayana
+java ecommerce.Main
+
 
