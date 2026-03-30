@@ -208,10 +208,5 @@ java ecommerce.Main
 
 ## Author
 
-Your Name
+Kadiri Sujana Narayana
 
----
-
-## Submission
-
-GitHub Repository Link: Add your repository URL here
